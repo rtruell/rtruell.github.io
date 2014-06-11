@@ -1,16 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Rick's Random Rumblings]]></title>
   <link href="http://rtruell.github.io/atom.xml" rel="self"/>
   <link href="http://rtruell.github.io/"/>
-  <updated>2014-06-10T22:53:59-06:00</updated>
+  <updated>2014-06-11T13:23:02-06:00</updated>
   <id>http://rtruell.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Rick Truell]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Test Post]]></title>
+    <link href="http://rtruell.github.io/blog/2014/06/11/a-test-post/"/>
+    <updated>2014-06-11T12:58:03-06:00</updated>
+    <id>http://rtruell.github.io/blog/2014/06/11/a-test-post</id>
+    <content type="html"><![CDATA[<p>This is <strong>bold using 2 asterisks</strong> and this is <strong>bold using 2 underscores</strong>.</p>
+
+<p>This is <em>italics using 1 asterisk</em> and this is <em>italics using 1 underscore</em>.</p>
+
+<p>You can even combine both in order to <strong>bold a part containing a <em>word</em> in italics</strong>, using any combination of the above.</p>
+
+<blockquote><p>This should be a block quote.  It&rsquo;s used to quote things that
+other people have said, possibly things that you heard or
+possibly things you&rsquo;ve read in a paper, magazine or on-line.</p>
+
+<p>Or, create a block quote with just one long line, like this one.  This should be a block quote.  It&rsquo;s used to quote things that other people have said, possibly things that you heard or possibly things you&rsquo;ve read in a paper, magazine or on-line.</p></blockquote>
+
+<h1>This is heading one (1)</h1>
+
+<h2>This is heading two (2)</h2>
+
+<h3>This is heading three (3)</h3>
+
+<h4>This is heading four (4)</h4>
+
+<h5>This is heading five (5)</h5>
+
+<h6>This is heading six (6)</h6>
+
+<ul>
+<li>unordered list item one using asterisk</li>
+<li>unordered list item two using asterisk</li>
+<li><p>unordered list item three using asterisk</p></li>
+<li><p>ordered list item one</p></li>
+<li>ordered list item two</li>
+<li>ordered list item three</li>
+</ul>
+
+
+<p>This is a link to <a href="http://rtruell.ca/">my web page</a>.</p>
+
+<pre><code>Code blocks can be created by
+indenting with 4 spaces.  A
+blank line before and after
+the block is required.
+</code></pre>
+
+<p>All of the above are Markdown basics.  The following are all GFM or GitHub Flavored Markdown.</p>
+
+<p>Although the underscore is normally used for italics, it is ignored when there are multiple ones in a word, such as do_this_and_do_that_and_another_thing.</p>
+
+<p>If all that&rsquo;s needed is a clickable URL without text, then just enter it, such as <a href="http://rtruell.ca/.">http://rtruell.ca/.</a></p>
+
+<p>Surrounding a word/phrase with two tildes (~) causes strikethrough text, as in the quick brown <del>cat</del> fox jumped over the lazy dog.  However, there is no Markdown way to underline words, so you have to use HTML, as in the quick brown <u>fox</u> jumped over the lazy dog.  Similarly, in order to do superscripts, you have to use E=MC<sup>2</sup> and for subscripts, H<sub>2</sub>O.</p>
+
+<p>In GFM, you can use fences (3 tildes), instead of indenting 4 spaces, to create a code block, like this:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>function test() {
+</span><span class='line'>  console.log("notice the blank line before this function?");
+</span><span class='line'>}
+</span><span class='line'>
+</span><span class='line'>Note that a blank line before and after the fenced block isn't required, but makes the raw Markdown easier to read.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You can do syntax highlighting in a code block by adding a language identifier, like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;redcarpet&#39;</span>
+</span><span class='line'><span class="n">markdown</span> <span class="o">=</span> <span class="no">Redcarpet</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
+</span><span class='line'><span class="nb">puts</span> <span class="n">markdown</span><span class="o">.</span><span class="n">to_html</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Tables can be created using a dash to underline the first row and a pipe between columns.  Pipes at the start and end of each row can be used for aesthetic purposes, but aren&rsquo;t needed.  The number of dashes used to underline the first row don&rsquo;t have to match the length of the header text.</p>
+
+<p>With pipes:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th> First Header  </th>
+<th> Second Header </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td> Content Cell  </td>
+<td> Content Cell  |</td>
+</tr>
+<tr>
+<td></td>
+<td> Content Cell  </td>
+<td> Content Cell  |</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Without pipes:</p>
+
+<table>
+<thead>
+<tr>
+<th> Third Header  </th>
+<th> Fourth Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> Content Cell  </td>
+<td> Content Cell</td>
+</tr>
+<tr>
+<td> Content Cell  </td>
+<td> Content Cell</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>You can also include inline Markdown such as links, bold, italics, or strikethrough:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th> Name </th>
+<th> Description          </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td> Help      </td>
+<td> <del>Display the</del> help window.|</td>
+</tr>
+<tr>
+<td></td>
+<td> Close     </td>
+<td> <em>Closes</em> a <strong>window</strong>     |</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Finally, by including colons : within the header row, you can define text to be left-aligned, right-aligned, or center-aligned:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="left"> Left-Aligned  </th>
+<th align="center"> Center Aligned  </th>
+<th align="right"> Right Aligned </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td align="left"> col 3 is      </td>
+<td align="center"> some wordy text </td>
+<td align="right"> $1600 |</td>
+</tr>
+<tr>
+<td></td>
+<td align="left"> col 2 is      </td>
+<td align="center"> centered        </td>
+<td align="right">   $12 |</td>
+</tr>
+<tr>
+<td></td>
+<td align="left"> zebra stripes </td>
+<td align="center"> are neat        </td>
+<td align="right">    $1 |</td>
+</tr>
+</tbody>
+</table>
+
+
+<p><code>test test test</code></p>
+]]></content>
+  </entry>
   
 </feed>
