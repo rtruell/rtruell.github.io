@@ -138,3 +138,9 @@ Finally, by including colons : within the header row, you can define text to be 
 1. item one
 2. item two
 3. item three
+
+
+| First Header  | Second Header  | Third Header  |
+|---------------|----------------|---------------|
+| Row1 Cell1    | Row1 Cell2     | Row1 Cell3    |
+| Row2 Cell1    | Row2 Cell2     | Row2 Cell3    |
