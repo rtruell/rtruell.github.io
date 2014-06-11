@@ -4,7 +4,7 @@
   <title><![CDATA[Rick's Random Rumblings]]></title>
   <link href="http://rtruell.github.io/atom.xml" rel="self"/>
   <link href="http://rtruell.github.io/"/>
-  <updated>2014-06-11T15:17:29-06:00</updated>
+  <updated>2014-06-11T15:28:53-06:00</updated>
   <id>http://rtruell.github.io/</id>
   <author>
     <name><![CDATA[Rick Truell]]></name>
@@ -208,6 +208,32 @@ the block is required.
 <li>item two</li>
 <li>item three</li>
 </ol>
+
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th> First Header  </th>
+<th> Second Header  </th>
+<th> Third Header  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td> Row1 Cell1    </td>
+<td> Row1 Cell2     </td>
+<td> Row1 Cell3    |</td>
+</tr>
+<tr>
+<td></td>
+<td> Row2 Cell1    </td>
+<td> Row2 Cell2     </td>
+<td> Row2 Cell3    |</td>
+</tr>
+</tbody>
+</table>
 
 ]]></content>
   </entry>
