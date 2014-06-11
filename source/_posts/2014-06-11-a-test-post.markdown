@@ -29,9 +29,9 @@ You can even combine both in order to **bold a part containing a *word* in itali
 * unordered list item three using asterisk
 
 
-4. ordered list item one
-5. ordered list item two
-6. ordered list item three
+1. ordered list item one
+2. ordered list item two
+3. ordered list item three
 
 This is a link to [my web page](http://rtruell.ca/).
 
@@ -69,26 +69,33 @@ Tables can be created using a dash to underline the first row and a pipe between
 
 With pipes:
 
+
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
+
 Without pipes:
+
 
  Third Header  | Fourth Header
  ------------- | -------------
  Content Cell  | Content Cell
  Content Cell  | Content Cell
 
+
 You can also include inline Markdown such as links, bold, italics, or strikethrough:
+
 
 | Name | Description          |
 | ------------- | ----------- |
 | Help      | ~~Display the~~ help window.|
 | Close     | _Closes_ a **window**     |
 
+
 Finally, by including colons : within the header row, you can define text to be left-aligned, right-aligned, or center-aligned:
+
 
 |  Left-Aligned   |  Center Aligned   |  Right Aligned  |
 |  :-----------   |  :------------:   |  ------------:  |
