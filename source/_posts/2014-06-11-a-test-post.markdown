@@ -98,3 +98,7 @@ Finally, by including colons : within the header row, you can define text to be 
 
 
 `test test test`
+
+1. item one
+2. item two
+3. item three
