@@ -3,10 +3,10 @@
 # ----------------------- #
 
 url: http://rtruell.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
-simple_search: https://www.google.com/search
+title: Rick's Random Rumblings
+subtitle: I think of things.  I write about them here.
+author: Rick Truell
+simple_search: https://duckduckgo.com
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
