@@ -4,7 +4,7 @@
   <title><![CDATA[Rick's Random Rumblings]]></title>
   <link href="http://rtruell.github.io/atom.xml" rel="self"/>
   <link href="http://rtruell.github.io/"/>
-  <updated>2014-06-12T23:44:21-06:00</updated>
+  <updated>2014-06-12T23:47:18-06:00</updated>
   <id>http://rtruell.github.io/</id>
   <author>
     <name><![CDATA[Rick Truell]]></name>
@@ -109,12 +109,12 @@ the block is required.
 <tr>
 <td></td>
 <td> Content Cell  </td>
-<td> Content Cell  |</td>
+<td> Content Cell  </td>
 </tr>
 <tr>
 <td></td>
 <td> Content Cell  </td>
-<td> Content Cell  |</td>
+<td> Content Cell  </td>
 </tr>
 </tbody>
 </table>
@@ -159,12 +159,12 @@ the block is required.
 <tr>
 <td></td>
 <td> Help      </td>
-<td> <del>Display the</del> help window.|</td>
+<td> <del>Display the</del> help window.</td>
 </tr>
 <tr>
 <td></td>
 <td> Close     </td>
-<td> <em>Closes</em> a <strong>window</strong>     |</td>
+<td> <em>Closes</em> a <strong>window</strong>     </td>
 </tr>
 </tbody>
 </table>
@@ -186,19 +186,19 @@ the block is required.
 <td></td>
 <td align="left">  col 3 is       </td>
 <td align="center">  some wordy text  </td>
-<td align="right">  $1600          |</td>
+<td align="right">  $1600          </td>
 </tr>
 <tr>
 <td></td>
 <td align="left">  col 2 is       </td>
 <td align="center">  centered         </td>
-<td align="right">  $12            |</td>
+<td align="right">  $12            </td>
 </tr>
 <tr>
 <td></td>
 <td align="left">  zebra stripes  </td>
 <td align="center">  are neat         </td>
-<td align="right">  $1             |</td>
+<td align="right">  $1             </td>
 </tr>
 </tbody>
 </table>
