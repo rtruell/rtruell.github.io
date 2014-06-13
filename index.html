@@ -169,113 +169,32 @@ the block is required.
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>Tables can be created using a dash to underline the first row and a pipe between columns.  Pipes at the start and end of each row can be used for aesthetic purposes, but aren&rsquo;t needed.  The number of dashes used to underline the first row don&rsquo;t have to match the length of the header text.</p>
+<p>Tables can be created using a dash to underline the first row and a pipe between columns.  Pipes at the start and end of each row can be used for aesthetic purposes, but aren&rsquo;t needed.  The number of dashes used to underline the first row don&rsquo;t have to match the length of the header text, but at least 2 are needed.</p>
 
-<p>With pipes:</p>
+<p>With pipes:
+| First Header  | Second Header |
+| &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash; | &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash; |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |</p>
 
-<table>
-<thead>
-<tr>
-<th></th>
-<th> First Header  </th>
-<th> Second Header </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td> Content Cell  </td>
-<td> Content Cell  |</td>
-</tr>
-<tr>
-<td></td>
-<td> Content Cell  </td>
-<td> Content Cell  |</td>
-</tr>
-</tbody>
-</table>
+<p>Without pipes:
+ Third Header  | Fourth Header
+ &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash; | &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+ Content Cell  | Content Cell
+ Content Cell  | Content Cell</p>
 
+<p>You can also include inline Markdown such as links, bold, italics, or strikethrough:
+| Name | Description          |
+| &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash; | &mdash;&mdash;&mdash;&mdash;&mdash;&ndash; |
+| Help      | <del>Display the</del> help window.|
+| Close     | <em>Closes</em> a <strong>window</strong>     |</p>
 
-<p>Without pipes:</p>
-
-<table>
-<thead>
-<tr>
-<th> Third Header  </th>
-<th> Fourth Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td> Content Cell  </td>
-<td> Content Cell</td>
-</tr>
-<tr>
-<td> Content Cell  </td>
-<td> Content Cell</td>
-</tr>
-</tbody>
-</table>
-
-
-<p>You can also include inline Markdown such as links, bold, italics, or strikethrough:</p>
-
-<table>
-<thead>
-<tr>
-<th></th>
-<th> Name </th>
-<th> Description          </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td> Help      </td>
-<td> <del>Display the</del> help window.|</td>
-</tr>
-<tr>
-<td></td>
-<td> Close     </td>
-<td> <em>Closes</em> a <strong>window</strong>     |</td>
-</tr>
-</tbody>
-</table>
-
-
-<p>Finally, by including colons : within the header row, you can define text to be left-aligned, right-aligned, or center-aligned:</p>
-
-<table>
-<thead>
-<tr>
-<th></th>
-<th align="left">  Left-Aligned   </th>
-<th align="center">  Center Aligned   </th>
-<th align="right">  Right Aligned  </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td align="left">  col 3 is       </td>
-<td align="center">  some wordy text  </td>
-<td align="right">  $1600          |</td>
-</tr>
-<tr>
-<td></td>
-<td align="left">  col 2 is       </td>
-<td align="center">  centered         </td>
-<td align="right">  $12            |</td>
-</tr>
-<tr>
-<td></td>
-<td align="left">  zebra stripes  </td>
-<td align="center">  are neat         </td>
-<td align="right">  $1             |</td>
-</tr>
-</tbody>
-</table>
-
+<p>Finally, by including colons : within the header row, you can define text to be left-aligned, right-aligned, or center-aligned:
+|  Left-Aligned   |  Center Aligned   |  Right Aligned  |
+|  :&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;   |  :&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;:   |  &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;:  |
+|  col 3 is       |  some wordy text  |  $1600          |
+|  col 2 is       |  centered         |  $12            |
+|  zebra stripes  |  are neat         |  $1             |</p>
 
 <p><code>test</code> <code>test</code> <code>test</code></p>
 
@@ -304,11 +223,6 @@ the block is required.
 <td align="left">Row2 Cell1</td>
 <td align="center">Row2 Cell2</td>
 <td align="right">Row2 Cell3</td>
-</tr>
-<tr>
-<td align="left">Row3 Cell1</td>
-<td align="center">Row3 Cell2</td>
-<td align="right">Row3 Cell3Row4 Cell1|Row4 Cell2|Row4 Cell3Row5 Cell1|Row5 Cell2|Row5 Cell3</td>
 </tr>
 </tbody>
 </table>
