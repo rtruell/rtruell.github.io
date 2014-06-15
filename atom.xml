@@ -4,7 +4,7 @@
   <title><![CDATA[Rick's Random Rumblings]]></title>
   <link href="http://rtruell.github.io/atom.xml" rel="self"/>
   <link href="http://rtruell.github.io/"/>
-  <updated>2014-06-13T00:05:40-06:00</updated>
+  <updated>2014-06-15T16:27:23-06:00</updated>
   <id>http://rtruell.github.io/</id>
   <author>
     <name><![CDATA[Rick Truell]]></name>
@@ -239,42 +239,42 @@ the block is required.
 <table>
 <thead>
 <tr>
-<th></th>
-<th align="left">  This Is The First Header  </th>
-<th align="center">  This Is The Second Header  </th>
-<th align="right">  This Is The Third Header</th>
+<th align="left"></th>
+<th align="center">  This Is The First Header  </th>
+<th align="right">  This Is The Second Header  </th>
+<th>  This Is The Third Header</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td></td>
-<td align="left">  Row1 Cell1  </td>
+<td align="left"> Row1 Cell1  </td>
 <td align="center">  Row1 Cell2  </td>
 <td align="right">  Row1 Cell3</td>
+<td></td>
 </tr>
 <tr>
-<td></td>
-<td align="left">  Row2 Cell1  </td>
+<td align="left"> Row2 Cell1  </td>
 <td align="center">  Row2 Cell2  </td>
 <td align="right">  Row2 Cell3</td>
+<td></td>
 </tr>
 <tr>
-<td></td>
-<td align="left">  Row3 Cell1  </td>
+<td align="left"> Row3 Cell1  </td>
 <td align="center">  Row3 Cell2  </td>
 <td align="right">  Row3 Cell3</td>
+<td></td>
 </tr>
 <tr>
-<td></td>
-<td align="left">  Row4 Cell1  </td>
+<td align="left"> Row4 Cell1  </td>
 <td align="center">  Row4 Cell2  </td>
 <td align="right">  Row4 Cell3</td>
+<td></td>
 </tr>
 <tr>
-<td></td>
-<td align="left">  Row5 Cell1  </td>
+<td align="left"> Row5 Cell1  </td>
 <td align="center">  Row5 Cell2  </td>
 <td align="right">  Row5 Cell3</td>
+<td></td>
 </tr>
 </tbody>
 </table>
