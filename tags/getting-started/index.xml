@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting started on Rick&#39;s Random Rumblings</title>
+    <link>https://rtruell.ca/tags/getting-started/</link>
+    <description>Recent content in Getting started on Rick&#39;s Random Rumblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;#169; 2020 Rick Truell. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 21 Oct 2020 22:28:53 -0600</lastBuildDate><atom:link href="https://rtruell.ca/tags/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Post</title>
+      <link>https://rtruell.ca/post/test-post/</link>
+      <pubDate>Wed, 21 Oct 2020 22:28:53 -0600</pubDate>
+      
+      <guid>https://rtruell.ca/post/test-post/</guid>
+      <description>This is bold and this is italics. You can even combine both in order to bold a part containing a word in italics, using any combination of the above.
+ This should be a block quote. It&amp;rsquo;s used to quote things that other people have said, possibly things that you heard or possibly things you&amp;rsquo;ve read in a paper, magazine or on-line.
+ That block quote was created by splitting the quote into multiple lines, each starting with the &amp;lsquo;&amp;gt;&amp;rsquo; symbol.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://rtruell.ca/post/my-first-post/</link>
+      <pubDate>Wed, 21 Oct 2020 22:01:03 -0600</pubDate>
+      
+      <guid>https://rtruell.ca/post/my-first-post/</guid>
+      <description>This is a test post for Hugo!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on Rick&#39;s Random Rumblings</title>
+    <link>https://rtruell.ca/tags/test/</link>
+    <description>Recent content in test on Rick&#39;s Random Rumblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;#169; 2020 Rick Truell. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 27 Oct 2020 05:41:58 -0600</lastBuildDate><atom:link href="https://rtruell.ca/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Third Post</title>
+      <link>https://rtruell.ca/post/a-third-post/</link>
+      <pubDate>Tue, 27 Oct 2020 05:41:58 -0600</pubDate>
+      
+      <guid>https://rtruell.ca/post/a-third-post/</guid>
+      <description>This is a test post to test the &amp;ldquo;Posted on&amp;rdquo; and &amp;ldquo;Last modified&amp;rdquo; logic.</description>
+    </item>
+    
+  </channel>
+</rss>

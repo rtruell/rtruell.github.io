@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Rick&#39;s Random Rumblings</title>
+    <link>https://rtruell.ca/tags/</link>
+    <description>Recent content in Tags on Rick&#39;s Random Rumblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;#169; 2020 Rick Truell. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 27 Oct 2020 05:41:58 -0600</lastBuildDate><atom:link href="https://rtruell.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test</title>
+      <link>https://rtruell.ca/tags/test/</link>
+      <pubDate>Tue, 27 Oct 2020 05:41:58 -0600</pubDate>
+      
+      <guid>https://rtruell.ca/tags/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting started</title>
+      <link>https://rtruell.ca/tags/getting-started/</link>
+      <pubDate>Wed, 21 Oct 2020 22:28:53 -0600</pubDate>
+      
+      <guid>https://rtruell.ca/tags/getting-started/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown codes</title>
+      <link>https://rtruell.ca/tags/markdown-codes/</link>
+      <pubDate>Wed, 21 Oct 2020 22:28:53 -0600</pubDate>
+      
+      <guid>https://rtruell.ca/tags/markdown-codes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
