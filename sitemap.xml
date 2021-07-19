@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://rtruell.ca/page/about/</loc>
+    <lastmod>2020-10-31T04:15:12-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rtruell.ca/page/</loc>
+    <lastmod>2020-11-13T05:42:32-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rtruell.ca/</loc>
+    <lastmod>2020-11-13T05:42:32-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rtruell.ca/page/test-1/</loc>
+    <lastmod>2020-11-13T05:42:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rtruell.ca/page/test-2/</loc>
+    <lastmod>2020-11-13T05:42:32-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rtruell.ca/archives/</loc>
+    <lastmod>2020-08-16T06:12:10-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rtruell.ca/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rtruell.ca/series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rtruell.ca/tags/</loc>
+  </url>
+  
+</urlset>

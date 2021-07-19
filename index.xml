@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rick&#39;s Random Rumblings</title>
+    <link>https://rtruell.ca/</link>
+    <description>Recent content on Rick&#39;s Random Rumblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;#169; 2020 Rick Truell. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 10 Jan 2020 00:19:27 -0700</lastBuildDate><atom:link href="https://rtruell.ca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://rtruell.ca/page/about/</link>
+      <pubDate>Fri, 10 Jan 2020 00:19:27 -0700</pubDate>
+      
+      <guid>https://rtruell.ca/page/about/</guid>
+      <description>My name is Rick Truell. This is my life story.</description>
+    </item>
+    
+    <item>
+      <title>Test 1</title>
+      <link>https://rtruell.ca/page/test-1/</link>
+      <pubDate>Fri, 10 Jan 2020 00:19:27 -0700</pubDate>
+      
+      <guid>https://rtruell.ca/page/test-1/</guid>
+      <description>My name is Rick Truell. This is my life story.</description>
+    </item>
+    
+    <item>
+      <title>Test 2</title>
+      <link>https://rtruell.ca/page/test-2/</link>
+      <pubDate>Fri, 10 Jan 2020 00:19:27 -0700</pubDate>
+      
+      <guid>https://rtruell.ca/page/test-2/</guid>
+      <description>My name is Rick Truell. This is my life story.</description>
+    </item>
+    
+  </channel>
+</rss>
